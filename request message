@@ -1,0 +1,29 @@
+GET /?name=sieun HTTP/1.1
+POST / HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-AS;q=0.8,en;q=0.7,en-US;q=0.6
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-type: application/x-www-urlencoded // querystring
+Content-type: application/json //json   
+Cookie: token=true
+Host: localhost:3000
+If-None-Match: W/"112-Fc0vyOcegB+xJfkd0rwtKgQn368"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+
+// request body
+
+name=sieun
+{name:sieun}
+
+app.use(express.urlencoded({extends:true,}))
+app.use(express.json())

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <script type="text/javascript">
+        function init(){
+            // 3개 인자값이들어간다
+            // 첫번째 인자값은 내용을 보낼 주소
+            // body name=sieun
+            // axios는 객체로받음 {name:sieun}
+            // header 내용입니다.
+            axios.post('http://localhost:3000/getCookie', null, {
+                // headers:{
+                //     // 'Content-type':'application/x-www-form-urlencoded'
+                //     'Content-type':'application/json'
+                // },
+                withCredentials:'true'
+            })
+        }
+        init()
+    </script>
+</head>
+<body>
+    front server
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+response는 Express가 브라우저에 보내는 정보
+
+// response headers
+// 브라우저가 서버로부터 받은 정보 (시간같은거)
+// headers 부분도 수정 할수 있다
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+ETag: W/"112-Fc0vyOcegB+xJfkd0rwtKgQn368"
+Date: Mon, 18 Apr 2022 15:19:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+
+// response body 
+// 브라우저는 response body 부분을 읽고 이걸 그려줌
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    back server
+</body>
+</html>
