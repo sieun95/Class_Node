@@ -14,7 +14,7 @@ app.use(cors({
 }))
 
 app.get('/', (req, res) => {
-    res.setHeader('Set-Cookie', 'test=cookie')
+    // res.setHeader('Set-Cookie', 'test=cookie')
     res.render('index')
 })
 
@@ -23,6 +23,7 @@ app.post('/getCookie', (req,res) => {
     // res.setHeader('Access-Control-Allow-Methods','POST, GET, OPTIONS, DELETE') // methods 사용여부
     // res.setHeader('Access-Control-Allow-Credentials','true')
     // res.setHeader('Access-Control-Allow-Headers','Content-type')
+    res.setHeader('Set-Cookie', 'test=true')
     res.send('hi~~')
 })
 
