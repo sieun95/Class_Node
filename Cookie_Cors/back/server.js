@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.post('/getCookie', (req,res) => {
+app.get('/getCookie', (req,res) => {
     // res.setHeader('Access-Control-Allow-Origin','http://localhost:4000')
     // res.setHeader('Access-Control-Allow-Methods','POST, GET, OPTIONS, DELETE') // methods 사용여부
     // res.setHeader('Access-Control-Allow-Credentials','true')

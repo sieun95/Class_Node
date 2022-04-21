@@ -14,9 +14,9 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.post('/getCookie', (req, res) => {
+app.get('/getCookie', (req, res) => {
     console.log(req.body)
-    res.send('good??')
+    res.send('안녕하세요 쿠키입니다.')
 })
 
 app.listen(4000, () => {
