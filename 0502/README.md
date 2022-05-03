@@ -1,52 +1,5 @@
-# node.js
-
-라이브러리, 패키지, 프레임워크
-
-패키지 === 라이브러리
-폴더안에 프로그램관련된 파일이 잔뜩 담겨져있는거,
-
-ingoo express hello world!
-
-프레임워크
-딱딱 정해준 디렉토리가 있는것들,
-
-npx create-react-app
-src 
-    프레임워크
-
-express : 라이프러리, 패키지
-
-express : http 서버를 편하게 만들어주는 라이브러리
-
-http
-
-서버 
-
-애플코딩
-
-일단쳐요, 동작원리 설명
-
-input output
-학습 시간을 단축할수있다.
-
-
-서버
-
-서버는 서빙하는 사람이다.
-찐따, 일진이시키면 시키는 대로만 해야된다.
-
-client 중국인
-
-우리 공통언어 만들자 프로토콜
-http 프로토콜
-
-server 한국인
-
-
-client 빵사와,
-server 빵을사와
 module > nodejs 내장객체이고,
-module.exports 객체는 결과물을 저장하는 공강이다.
+module.exports 객체는 결과물을 저장하는 공간이다.
 
 require 역활은 내가 가지고오고싶은 파일의 module.exports 안에 있는 객체를 가져오는애입나디.
 
