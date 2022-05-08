@@ -12,4 +12,4 @@ router.post('/write', boardContoller.writeAction)
 router.post('/update', boardContoller.updateAction)
 
 
-module.exports = router
+module.exports = router;
