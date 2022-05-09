@@ -7,4 +7,10 @@ for (let i = 0; i < a.length; i++) {
 
 const result = a.reduce((acc, val) => {
     return acc + val
-}, 0)
+}, '')
+
+const b = [1,2,3,4];
+b.map((v) => {
+    console.log(v)
+    return 
+})
