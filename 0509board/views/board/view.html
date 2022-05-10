@@ -10,23 +10,28 @@
     <h1>view page</h1>
     <ul>
         <li>
+            번호 : 
             <label for="idx">{{items.idx}}</label>
         </li>
         <li>
+            제목 : 
             <label for="subject">{{items.subject}}</label>
         </li>
         <li>
+            작성일 : 
             <label for="date">{{items.date}}</label>
         </li>
         <li>
+            내용 : 
             <label for="content">{{items.content}}</label>
         </li>
         <li>
+            조회수 : 
             <label for="hit">{{items.hit}}</label>
         </li>
     </ul>
     <a href="/board/list">글목록</a>
-    <a href="/board/modify">글수정</a>
-    <a href="/board/delete">글삭제</a>
+    <a href="/board/modify?idx={{items.idx}}">글수정</a>
+    <a href="/board/delete?idx={{items.idx}}">글삭제</a>
 </body>
 </html>

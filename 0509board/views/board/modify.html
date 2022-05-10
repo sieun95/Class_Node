@@ -9,14 +9,15 @@
 <body>
     <h1>modify page</h1>
     <form action="/board/modify" method="post">
+        <input type="hidden" name="idx" value="{{items.idx}}">
         <ul>
             <li>
                 <label for="subject">제목</label>
-                <input type="text" name="subject" value="">
+                <input type="text" name="subject" value="{{items.subject}}">
             </li>
             <li>
                 <label for="content">내용</label>
-                <textarea name="content"></textarea>
+                <textarea name="content">{{items.content}}</textarea>
             </li>
         </ul>
         <input type="submit" value="수정하기">
