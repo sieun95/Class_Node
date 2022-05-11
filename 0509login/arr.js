@@ -1,9 +1,6 @@
-let test = [];
-let test2 = {};
+let items = [1,2,3,4,5]
 
-test['a'] = 1
-test[0] = 2
-
-test2 = {a: 1}
-
-console.log(test2)
+const newarr = items.map((item) => {
+    return item + 1
+})
+console.log(newarr)
