@@ -4,6 +4,7 @@ const boardRouter = require('./board');
 
 router.use('/board', boardRouter);
 
+
 router.get('/', (req, res) => {
     res.send('hello world!')
 })
